@@ -1,0 +1,121 @@
+@charset "UTF-8";
+body {
+  font: 18px/30px “Lucida Sans Unicode”, “Lucida Grande”, sans-serif, FontAwesome;
+  background-color: white;
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6, hr {
+  margin: 0; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #3399CC;
+  border: 10px solid #6C92C5; }
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px; } }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px; } }
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px; } }
+
+.pogoda {
+  width: 80%;
+  margin: 0 auto;
+  color: #fff; }
+
+.top {
+  margin: 5px 0;
+  font-size: 14px; }
+
+.list {
+  font-size: 0;
+  width: 100%;
+  list-style: none;
+  padding: 5px;
+  background: #fff; }
+
+.list:hover .list-item {
+  opacity: 0.7; }
+
+.list-item {
+  font-size: 18px;
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  background: #727272;
+  border: 5px solid #fff;
+  -webkit-transition: all .1s ease-in;
+  -o-transition: all .1s ease-in;
+  transition: all .1s ease-in; }
+  .list-item a {
+    color: #fff;
+    text-decoration: none; }
+  .list-item p {
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding-top: 10px; }
+  .list-item span {
+    display: block;
+    padding-bottom: 10px; }
+    .list-item span i {
+      padding-left: 5px; }
+
+.list .list-item:hover {
+  opacity: 1; }
+
+.list-item1 {
+  width: 50%;
+  background: #3399CC; }
+
+.list-item2 {
+  background: #54cec2; }
+
+.list-item3 {
+  background: #ce54b4; }
+
+.list-item4 {
+  background: #f10f0f; }
+
+.list-item5 {
+  background: #ce5470; }
+
+.list-item6 {
+  background: #ce9254; }
+
+.list-item7 {
+  background: #88da86; }
+
+.list-item8 {
+  background: #091731; }
+
+.list-item9 {
+  width: 50%;
+  background: #8B87A9; }
+
+.list-item10 {
+  background: #043a0d; }
+
+.list-item11 {
+  width: 100%;
+  background: #0c043a; }
